@@ -1,0 +1,43 @@
+.errors-container {
+    display: flex;
+    width: 100%;
+    margin-top: 7px;
+}
+
+.email-errors {
+    width: 50%;
+}
+
+.password-errors {
+    width: 50%;
+}
+
+.signup-errors {
+    color: #e50914;
+    font-size: 14px;
+    margin: 0 0 3px 12px;
+}
+
+.login-errors {
+    color: #e50914;
+    font-size: 14px;
+    margin: 15px auto 0 auto;
+}
+
+.error-border {
+    border: 2px solid #e50914;
+    border-radius: 3px;
+}
+
+.error-border:focus {
+    outline: none;
+}
+
+.login-error-border {
+    border: 1px solid #e50914;
+    border-radius: 3px;
+}
+
+.login-error-border:focus {
+    outline: none;
+}

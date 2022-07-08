@@ -1,0 +1,19 @@
+.browse-main {
+    width: 100%;
+    background-color: #141414;
+}
+
+.browse-hero-container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.browse-rows-container {
+    width: 100%;
+    margin-top: -90px;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+}

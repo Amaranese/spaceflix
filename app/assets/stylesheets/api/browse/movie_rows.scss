@@ -1,0 +1,64 @@
+.movie-row-main {
+    color: white;
+    width: 100%;
+    margin-bottom: 55px;
+}
+
+.genre-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 15px 50px;
+}
+
+.movies-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 172px;
+}
+
+.carousel-wrapper {
+
+    display: flex;
+    align-items: center;
+    width: 95%;
+    overflow-x: hidden;
+    margin: 0 10px 5px 10px;
+    position: relative;
+}
+
+.carousel {
+    display: flex;
+    transition: 1s ease all; 
+    align-items: center;
+}
+
+.carousel-left {
+    cursor: pointer;
+    background-image: image-url("chev-left-white");
+    height: 55px;
+    width: 16px;
+}
+
+.unhidden {
+    visibility: visible;
+}
+
+.carousel-left:hover {
+    background-image: image-url("chev-left-red");
+}
+
+.carousel-right {
+    background-image: image-url("chev-right-white");
+    height: 55px;
+    width: 16px;
+}
+
+.carousel-right:hover {
+    background-image: image-url("chev-right-red");
+    cursor: pointer;
+}
+
+.invisible {
+    visibility: hidden;
+}
